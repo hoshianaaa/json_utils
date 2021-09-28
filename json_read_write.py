@@ -11,6 +11,8 @@ def write_json_file(file_name, dict_data):
 
 if __name__ == '__main__':
 
+  print(json.__version__)
+
   f_name = "test.json"
   data = read_json_file(f_name)
 
