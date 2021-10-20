@@ -7,3 +7,6 @@
 
 ## Dependency
 - json 2.0.9
+
+## Document
+https://qiita.com/hoshianaaa/items/83157d8981c5e2bc8677
