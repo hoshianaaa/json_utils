@@ -18,7 +18,8 @@ if __name__ == '__main__':
       print(mat[i][j])
       mat[i][j] = mat[i][j] * 10
   
-  print(data["matrix"])
+  new_data = {"matrix":mat}
+  print(new_data)
 
   f_name = "matrix2.json"
-  write_json_file(f_name, data)
+  write_json_file(f_name, new_data)
