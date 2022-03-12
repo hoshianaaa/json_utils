@@ -3,7 +3,7 @@ from json_read_write import *
 if __name__ == '__main__':
 
   f_name = "matrix.json"
-  data = read_json_file(f_name)
+  data, read_success = read_json_file(f_name)
 
   print("data")
   print(data)
